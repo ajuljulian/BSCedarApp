@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D517F4AD2E5854BB7AA0A99 /* libPods-BSCedarApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5098A488F329B669C49BA76 /* libPods-BSCedarApp.a */; };
 		6F7EB7261ADF78BA00733E19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7251ADF78BA00733E19 /* main.m */; };
 		6F7EB7291ADF78BA00733E19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7281ADF78BA00733E19 /* AppDelegate.m */; };
 		6F7EB72C1ADF78BA00733E19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB72B1ADF78BA00733E19 /* ViewController.m */; };
@@ -14,6 +15,16 @@
 		6F7EB7311ADF78BA00733E19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7EB7301ADF78BA00733E19 /* Images.xcassets */; };
 		6F7EB7341ADF78BA00733E19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F7EB7321ADF78BA00733E19 /* LaunchScreen.xib */; };
 		6F7EB7401ADF78BA00733E19 /* BSCedarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB73F1ADF78BA00733E19 /* BSCedarAppTests.m */; };
+		6F7EB74A1ADF7C4800733E19 /* NSStringSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7491ADF7C4800733E19 /* NSStringSpec.mm */; };
+		6F7EB78C1AE5AE5800733E19 /* MailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB78B1AE5AE5800733E19 /* MailMessage.m */; };
+		6F7EB78E1AE5AFBC00733E19 /* MailMessageSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB78D1AE5AFBC00733E19 /* MailMessageSpec.mm */; };
+		6F7EB7901AE71F4400733E19 /* SimpleMailServiceSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB78F1AE71F4400733E19 /* SimpleMailServiceSpec.mm */; };
+		6F7EB7931AE71F7900733E19 /* SimpleMailService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7921AE71F7900733E19 /* SimpleMailService.m */; };
+		6F7EB7951AE720A800733E19 /* MailRelaySpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7941AE720A800733E19 /* MailRelaySpec.mm */; };
+		6F7EB7981AE720D100733E19 /* MailRelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7971AE720D100733E19 /* MailRelay.m */; };
+		6F7EB79A1AE7264100733E19 /* AESEncryptorSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB7991AE7264100733E19 /* AESEncryptorSpec.mm */; };
+		6F7EB79D1AE7267A00733E19 /* AESEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EB79C1AE7267A00733E19 /* AESEncryptor.m */; };
+		8AEC6966A2AFA181DBFE56D5 /* libPods-BSCedarAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA5C6AA254F83A5A00AD9D1 /* libPods-BSCedarAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B25D8CEB1175109987E10C6 /* Pods-BSCedarAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCedarAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSCedarAppTests/Pods-BSCedarAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C8798CD2E959E3A04CE0968 /* Pods-BSCedarApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCedarApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSCedarApp/Pods-BSCedarApp.release.xcconfig"; sourceTree = "<group>"; };
+		3B37D00B585F64F24F772CE9 /* Pods-BSCedarAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCedarAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSCedarAppTests/Pods-BSCedarAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6F7EB7201ADF78BA00733E19 /* BSCedarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSCedarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7EB7241ADF78BA00733E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7EB7251ADF78BA00733E19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,24 @@
 		6F7EB7391ADF78BA00733E19 /* BSCedarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSCedarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7EB73E1ADF78BA00733E19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7EB73F1ADF78BA00733E19 /* BSCedarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCedarAppTests.m; sourceTree = "<group>"; };
+		6F7EB7491ADF7C4800733E19 /* NSStringSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NSStringSpec.mm; sourceTree = "<group>"; };
+		6F7EB7501AE05F2C00733E19 /* Encryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryptor.h; sourceTree = "<group>"; };
+		6F7EB7871AE59F7C00733E19 /* MailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailService.h; sourceTree = "<group>"; };
+		6F7EB78A1AE5AE5800733E19 /* MailMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailMessage.h; sourceTree = "<group>"; };
+		6F7EB78B1AE5AE5800733E19 /* MailMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailMessage.m; sourceTree = "<group>"; };
+		6F7EB78D1AE5AFBC00733E19 /* MailMessageSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MailMessageSpec.mm; sourceTree = "<group>"; };
+		6F7EB78F1AE71F4400733E19 /* SimpleMailServiceSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SimpleMailServiceSpec.mm; sourceTree = "<group>"; };
+		6F7EB7911AE71F7900733E19 /* SimpleMailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMailService.h; sourceTree = "<group>"; };
+		6F7EB7921AE71F7900733E19 /* SimpleMailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMailService.m; sourceTree = "<group>"; };
+		6F7EB7941AE720A800733E19 /* MailRelaySpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MailRelaySpec.mm; sourceTree = "<group>"; };
+		6F7EB7961AE720D100733E19 /* MailRelay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailRelay.h; sourceTree = "<group>"; };
+		6F7EB7971AE720D100733E19 /* MailRelay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailRelay.m; sourceTree = "<group>"; };
+		6F7EB7991AE7264100733E19 /* AESEncryptorSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AESEncryptorSpec.mm; sourceTree = "<group>"; };
+		6F7EB79B1AE7267A00733E19 /* AESEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESEncryptor.h; sourceTree = "<group>"; };
+		6F7EB79C1AE7267A00733E19 /* AESEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESEncryptor.m; sourceTree = "<group>"; };
+		7AA5C6AA254F83A5A00AD9D1 /* libPods-BSCedarAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSCedarAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EED8C99CCD68DACC1CDCE98 /* Pods-BSCedarApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCedarApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSCedarApp/Pods-BSCedarApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D5098A488F329B669C49BA76 /* libPods-BSCedarApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSCedarApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D517F4AD2E5854BB7AA0A99 /* libPods-BSCedarApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +87,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AEC6966A2AFA181DBFE56D5 /* libPods-BSCedarAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09B043271C89A1FDCDF3F5F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5098A488F329B669C49BA76 /* libPods-BSCedarApp.a */,
+				7AA5C6AA254F83A5A00AD9D1 /* libPods-BSCedarAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F7EB7171ADF78BA00733E19 = {
 			isa = PBXGroup;
 			children = (
 				6F7EB7221ADF78BA00733E19 /* BSCedarApp */,
 				6F7EB73C1ADF78BA00733E19 /* BSCedarAppTests */,
 				6F7EB7211ADF78BA00733E19 /* Products */,
+				E9725F9F261534605B6E2C64 /* Pods */,
+				09B043271C89A1FDCDF3F5F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +134,16 @@
 				6F7EB7301ADF78BA00733E19 /* Images.xcassets */,
 				6F7EB7321ADF78BA00733E19 /* LaunchScreen.xib */,
 				6F7EB7231ADF78BA00733E19 /* Supporting Files */,
+				6F7EB7501AE05F2C00733E19 /* Encryptor.h */,
+				6F7EB7871AE59F7C00733E19 /* MailService.h */,
+				6F7EB78A1AE5AE5800733E19 /* MailMessage.h */,
+				6F7EB78B1AE5AE5800733E19 /* MailMessage.m */,
+				6F7EB7911AE71F7900733E19 /* SimpleMailService.h */,
+				6F7EB7921AE71F7900733E19 /* SimpleMailService.m */,
+				6F7EB7961AE720D100733E19 /* MailRelay.h */,
+				6F7EB7971AE720D100733E19 /* MailRelay.m */,
+				6F7EB79B1AE7267A00733E19 /* AESEncryptor.h */,
+				6F7EB79C1AE7267A00733E19 /* AESEncryptor.m */,
 			);
 			path = BSCedarApp;
 			sourceTree = "<group>";
@@ -107,6 +162,11 @@
 			children = (
 				6F7EB73F1ADF78BA00733E19 /* BSCedarAppTests.m */,
 				6F7EB73D1ADF78BA00733E19 /* Supporting Files */,
+				6F7EB7491ADF7C4800733E19 /* NSStringSpec.mm */,
+				6F7EB78D1AE5AFBC00733E19 /* MailMessageSpec.mm */,
+				6F7EB78F1AE71F4400733E19 /* SimpleMailServiceSpec.mm */,
+				6F7EB7941AE720A800733E19 /* MailRelaySpec.mm */,
+				6F7EB7991AE7264100733E19 /* AESEncryptorSpec.mm */,
 			);
 			path = BSCedarAppTests;
 			sourceTree = "<group>";
@@ -119,6 +179,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E9725F9F261534605B6E2C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EED8C99CCD68DACC1CDCE98 /* Pods-BSCedarApp.debug.xcconfig */,
+				2C8798CD2E959E3A04CE0968 /* Pods-BSCedarApp.release.xcconfig */,
+				3B37D00B585F64F24F772CE9 /* Pods-BSCedarAppTests.debug.xcconfig */,
+				2B25D8CEB1175109987E10C6 /* Pods-BSCedarAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F7EB7431ADF78BA00733E19 /* Build configuration list for PBXNativeTarget "BSCedarApp" */;
 			buildPhases = (
+				D956CC863BFCDCE17C1EE61D /* Check Pods Manifest.lock */,
 				6F7EB71C1ADF78BA00733E19 /* Sources */,
 				6F7EB71D1ADF78BA00733E19 /* Frameworks */,
 				6F7EB71E1ADF78BA00733E19 /* Resources */,
+				0A396D6AFF79A3DFAB7EDA8F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F7EB7461ADF78BA00733E19 /* Build configuration list for PBXNativeTarget "BSCedarAppTests" */;
 			buildPhases = (
+				1DDF212A15B05C6C5D06597C /* Check Pods Manifest.lock */,
 				6F7EB7351ADF78BA00733E19 /* Sources */,
 				6F7EB7361ADF78BA00733E19 /* Frameworks */,
 				6F7EB7371ADF78BA00733E19 /* Resources */,
+				AE9B0D408A2ADC72DDB53801 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,12 +289,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A396D6AFF79A3DFAB7EDA8F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSCedarApp/Pods-BSCedarApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DDF212A15B05C6C5D06597C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9B0D408A2ADC72DDB53801 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSCedarAppTests/Pods-BSCedarAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D956CC863BFCDCE17C1EE61D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F7EB71C1ADF78BA00733E19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7EB79D1AE7267A00733E19 /* AESEncryptor.m in Sources */,
+				6F7EB7931AE71F7900733E19 /* SimpleMailService.m in Sources */,
+				6F7EB78C1AE5AE5800733E19 /* MailMessage.m in Sources */,
 				6F7EB72C1ADF78BA00733E19 /* ViewController.m in Sources */,
+				6F7EB7981AE720D100733E19 /* MailRelay.m in Sources */,
 				6F7EB7291ADF78BA00733E19 /* AppDelegate.m in Sources */,
 				6F7EB7261ADF78BA00733E19 /* main.m in Sources */,
 			);
@@ -229,7 +371,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F7EB79A1AE7264100733E19 /* AESEncryptorSpec.mm in Sources */,
+				6F7EB7901AE71F4400733E19 /* SimpleMailServiceSpec.mm in Sources */,
 				6F7EB7401ADF78BA00733E19 /* BSCedarAppTests.m in Sources */,
+				6F7EB78E1AE5AFBC00733E19 /* MailMessageSpec.mm in Sources */,
+				6F7EB7951AE720A800733E19 /* MailRelaySpec.mm in Sources */,
+				6F7EB74A1ADF7C4800733E19 /* NSStringSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +492,11 @@
 		};
 		6F7EB7441ADF78BA00733E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EED8C99CCD68DACC1CDCE98 /* Pods-BSCedarApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				INFOPLIST_FILE = BSCedarApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +505,7 @@
 		};
 		6F7EB7451ADF78BA00733E19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8798CD2E959E3A04CE0968 /* Pods-BSCedarApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BSCedarApp/Info.plist;
@@ -365,6 +516,7 @@
 		};
 		6F7EB7471ADF78BA00733E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B37D00B585F64F24F772CE9 /* Pods-BSCedarAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +536,7 @@
 		};
 		6F7EB7481ADF78BA00733E19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B25D8CEB1175109987E10C6 /* Pods-BSCedarAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +569,7 @@
 				6F7EB7451ADF78BA00733E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F7EB7461ADF78BA00733E19 /* Build configuration list for PBXNativeTarget "BSCedarAppTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +578,7 @@
 				6F7EB7481ADF78BA00733E19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
